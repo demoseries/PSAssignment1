@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Product Analysis</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+    />
+    <style>
+      .highlight {
+        color: var(--pico-color-green-500);
+        font-weight: bold;
+      }
+      .price {
+        color: var(--pico-color-blue-600);
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="container">
+      <nav>
+        <ul>
+          <li><a href="product-analysis.html">Product Analysis</a></li>
+          <li><a href="all-products-data.html">All Products Data</a></li>
+        </ul>
+      </nav>
+      <hgroup>
+        <h1>Product Analysis</h1>
+        <p>Statistical analysis for products</p>
+      </hgroup>
+    </header>
+
+    <main class="container">
+      <section>
+        <h2>Most Expensive Product Details</h2>
+        <div id="expensive-product"></div>
+      </section>
+      <section>
+        <h2>Total and Averages</h2>
+        <div id="total-average"></div>
+      </section>
+      <section>
+        <h2>Products with Highest Rating</h2>
+        <div id="highest-rated-product"></div>
+      </section>
+      <section>
+        <h2>Products with Price Less than 50</h2>
+        <div id="price-less-than-50"></div>
+      </section>
+    </main>
+
+    <footer class="container">
+      <small>Learning JavaScript for loops with product data analysis</small>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
